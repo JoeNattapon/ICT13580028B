@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ICT13580028B.StackPage"
+             BackgroundColor="Salmon">
+
+    <ScrollView
+        Orientation="Vertical">
+        <StackLayout
+        Orientation="Vertical"
+        BackgroundColor="White">
+
+            <Button
+            Text="Button"
+            BackgroundColor="Salmon"
+            HeightRequest="100"
+            WidthRequest="100"
+            VerticalOptions="End"/>
+
+            <Button
+            Text="Button"
+            BackgroundColor="Aquamarine"/>
+
+            <Button
+            Text="Button"
+            TextColor="Black"
+            BackgroundColor="White"/>
+
+            <ScrollView
+            Orientation="Horizontal">
+
+                <StackLayout
+            Orientation="Horizontal"
+            BackgroundColor="Aquamarine"
+            HeightRequest="100">
+
+                    <Button
+            Text="Button"
+            BackgroundColor="CornflowerBlue"
+            WidthRequest="100"/>
+
+                    <Button
+            Text="Button"
+            BackgroundColor="Brown"
+            WidthRequest="100"/>
+
+                    <Button
+            Text="Button"
+            BackgroundColor="Chocolate"
+            WidthRequest="100"/>
+
+
+                    <Button
+            Text="Button"
+            BackgroundColor="Wheat"
+            WidthRequest="100"/>
+
+                    <Button
+            Text="Button"
+            BackgroundColor="Transparent"
+            WidthRequest="100"/>
+
+                    <Button
+            Text="Button"
+            BackgroundColor="Tomato"
+            WidthRequest="100"/>
+
+                </StackLayout>
+            </ScrollView>
+            <Entry
+                Placeholder="Input text here"
+                BackgroundColor="Olive"/>
+            <Entry
+                Placeholder="Input text here"
+                BackgroundColor="OliveDrab"/>
+            <Entry
+                Placeholder="Input text here"
+                BackgroundColor="Orange"/>
+            <Entry
+                Placeholder="Input text here"
+                BackgroundColor="OrangeRed"/>
+            <Entry
+                Placeholder="Input text here"
+                BackgroundColor="Navy"/>
+            <Entry
+                Placeholder="Input text here"
+                BackgroundColor="PaleGreen"/>
+            <Entry
+                Placeholder="Input text here"
+                BackgroundColor="MediumPurple"/>
+            <Entry
+                Placeholder="Input text here"
+                BackgroundColor="PaleGreen"/>
+            <Entry
+                Placeholder="Input text here"
+                BackgroundColor="PaleGoldenrod"/>
+            <Entry
+                Placeholder="Input text here"
+                BackgroundColor="RoyalBlue"/>
+            <Entry
+                Placeholder="Input text here"
+                BackgroundColor="Purple"/>
+            <Entry
+                Placeholder="Input text here"
+                BackgroundColor="Orchid"/>
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
