@@ -140,6 +140,24 @@
       <Name>ICT13580028B</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\MM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\iconee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\iconham.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\iconnn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\iconqq.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
